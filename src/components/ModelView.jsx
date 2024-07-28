@@ -13,7 +13,7 @@ export default function ModelView({ index, groupRef, gsapType, controlRef, setRo
     <View
       index={index}
       id={gsapType}
-      className={`border-2 w-full h-full absolute ${index === 2 ? 'right-[-100%]' : ''}`}
+      className={`border-t-2 border-b-2 w-full h-full absolute ${index === 2 ? 'right-[-100%]' : ''}`}
     >
       {/* Ambient Light */}
 
